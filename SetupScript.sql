@@ -4,7 +4,7 @@
 --  DDL for Table MyProject_BATCH
 --------------------------------------------------------
 
- -- DROP TABLE MyProject_BATCH;
+  DROP TABLE MyProject_BATCH;
 
   CREATE TABLE MyProject_BATCH 
   (	
@@ -29,7 +29,7 @@
 --  Sequence for Table MyProject_BATCH
 --------------------------------------------------------
 
- -- DROP SEQUENCE  SEQ_MYPROJECT_BATCH;
+  DROP SEQUENCE  SEQ_MYPROJECT_BATCH;
   
   CREATE SEQUENCE  SEQ_MYPROJECT_BATCH  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1;
   
@@ -97,7 +97,7 @@ END PCK_MYPROJECT_BATCH;
 --  DDL for Table MyProject_BOOKS
 --------------------------------------------------------
 
- -- DROP TABLE MyProject_BOOKS;
+  DROP TABLE MyProject_BOOKS;
 
   CREATE TABLE MyProject_BOOKS 
   (	
@@ -122,7 +122,7 @@ END PCK_MYPROJECT_BATCH;
 --  Sequence for Table MyProject_BOOKS
 --------------------------------------------------------
 
- -- DROP SEQUENCE  SEQ_MyProject_BOOKS;
+  DROP SEQUENCE  SEQ_MyProject_BOOKS;
   
   CREATE SEQUENCE  SEQ_MyProject_BOOKS  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1;
   
