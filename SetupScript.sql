@@ -135,3 +135,5 @@ END PCK_MYPROJECT_BATCH;
    
   Insert into MyProject_BOOKS (SEQNO,TITLE,AUTHOR,ISBN,PUBLISHED,GENERE) 
    values (SEQ_MyProject_BOOKS.nextval, 'Groovy in Action','Dierk Konig','1-932394-84-2',TO_DATE('2007','YYYY'),'Software manual');  
+   
+  COMMIT;
